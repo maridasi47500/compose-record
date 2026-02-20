@@ -2,7 +2,7 @@
 
 # compose-record
 ## ou ùusical palette from dusk till dawn
-- i tu veux plus darchet, et jouer aussi fort, appuyer moins
+- i tu veux plus darchet, et le rythme est plus court, l'archet va plus vite, et si tu veux jouer aussi fort, appuyer moins
 - faire un crescendo dans une etude , commence plus que piano (pp)
 ~~principes de l'archet
 - si tu veux faire des bases de donnees, fais despalettes de nuances (pp, p , mf, mf, f) ou 
