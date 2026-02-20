@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ComposeRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+<%=link_to "my link", musicaltechniquescores_path %>
+<%=link_to "my link", musicaltechniques_path %>
+<%=link_to "my link", musicalinstruments_path %>
+<%=link_to "my link", musicsymbols_path %>
+<%=link_to "my link", musicsymboltypes_path %>
+<%=link_to "my link", scores_path %>
+
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Musicsymboltypes</h1>
+
+<div id="musicsymboltypes">
+  <% @musicsymboltypes.each do |musicsymboltype| %>
+    <%= render musicsymboltype %>
+    <p>
+      <%= link_to "Show this musicsymboltype", musicsymboltype %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New musicsymboltype", new_musicsymboltype_path %>

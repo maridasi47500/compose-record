@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Musicaltechniquescores</h1>
+
+<div id="musicaltechniquescores">
+  <% @musicaltechniquescores.each do |musicaltechniquescore| %>
+    <%= render musicaltechniquescore %>
+    <p>
+      <%= link_to "Show this musicaltechniquescore", musicaltechniquescore %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New musicaltechniquescore", new_musicaltechniquescore_path %>

@@ -1,0 +1,2 @@
+class Musicsymbol < ApplicationRecord
+end

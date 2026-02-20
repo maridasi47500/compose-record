@@ -1,0 +1,2 @@
+class Musicaltechniquescore < ApplicationRecord
+end

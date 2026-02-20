@@ -1,0 +1,42 @@
+<%= form_with(model: musicaltechnique) do |form| %>
+  <% if musicaltechnique.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(musicaltechnique.errors.count, "error") %> prohibited this musicaltechnique from being saved:</h2>
+
+      <ul>
+        <% musicaltechnique.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :musicalinstrument_id, style: "display: block" %>
+    <%= form.number_field :musicalinstrument_id %>
+  </div>
+
+  <div>
+    <%= form.label :myattribute, style: "display: block" %>
+    <%= form.text_field :myattribute %>
+  </div>
+
+  <div>
+    <%= form.label :maxvalue, style: "display: block" %>
+    <%= form.text_field :maxvalue %>
+  </div>
+
+  <div>
+    <%= form.label :minvalue, style: "display: block" %>
+    <%= form.text_field :minvalue %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+module MusicsymboltypesHelper
+end
